@@ -1,6 +1,5 @@
 $(function () {
   let overlayTimeoutId;
-
   let dataSource = new DevExpress.data.DataSource({
     load: function (loadOptions) {
       let d = $.Deferred();
